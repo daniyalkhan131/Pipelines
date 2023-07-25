@@ -16,4 +16,9 @@ in deployment it helps a lot as data comes all things done one after another, ou
 of one serves as input to another
 
 
-
+#pipeline steps
+#1- fill missing values to age and embarked
+#2- OHE of sex and embarked
+#3- scaling
+#4- fearue selection, selecting most prominent features out of 10 created
+#5- train using decision tree
